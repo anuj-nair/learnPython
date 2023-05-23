@@ -1,0 +1,18 @@
+## Refering using & and *
+## Keeping same information from default object
+address: &addr
+    city: NYC
+    zip: 10018
+    country: US
+
+person1:
+    name: Bob
+    age: 32
+    address: *addr
+    
+person2:
+    name: Jake
+    age: 62
+    address:
+        zip: 11118 
+        <<: *addr

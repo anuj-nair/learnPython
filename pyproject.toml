@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "learnpython"
+version = "0.1.0"
+description = "Learning Python and It's various libraries"
+authors = ["anuj-nair <nairanuj29@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+openpyxl = "^3.1.2"
+xlsxwriter = "^3.1.0"
+pandas = "^2.0.1"
+pandas-datareader = "^0.10.0"
+kaleido = "0.2.1"
+dtale = "^2.16.0"
+xlwings = "^0.30.7"
+jupyterlab = "^4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

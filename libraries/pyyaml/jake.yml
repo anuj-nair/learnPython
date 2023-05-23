@@ -1,0 +1,10 @@
+address:
+  city: NYC
+  country: US
+  zip: 10018
+age: 32
+hobbies:
+- Problem Solving
+- Having Fun
+- Messing Around
+name: Jake

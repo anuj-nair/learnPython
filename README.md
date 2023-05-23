@@ -1,1 +1,10 @@
-# learnPython
+Libraries
+[x]pandas
+[x]numpy
+[x]matplotlib
+[x]urllib3
+[x]openpyxl
+[x]xlsxWriter
+[x]pyyAML
+[x]dtale
+[]xlwings
